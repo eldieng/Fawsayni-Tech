@@ -171,8 +171,3 @@ L'application sera accessible à l'adresse [http://localhost:3000](http://localh
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
-
-## 🙏 Remerciements
-
-- Merci à tous ceux qui ont contribué à ce projet
-- Inspiration: diverses bibliothèques en ligne et applications de gestion de livres
