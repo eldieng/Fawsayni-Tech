@@ -8,7 +8,7 @@
 
 Fawsayni Tech est une application web moderne et complète permettant de gérer une bibliothèque communautaire. Cette plateforme permet aux utilisateurs de découvrir, partager et gérer une collection de livres avec une interface utilisateur intuitive et élégante.
 
-![Capture d'écran de l'application](https://via.placeholder.com/800x400?text=Fawsayni+Tech+Screenshot)
+![Capture d'écran de l'application](./images/fawsayni-home.png)
 
 ## ✨ Fonctionnalités
 
@@ -156,9 +156,9 @@ L'application sera accessible à l'adresse [http://localhost:3000](http://localh
 ## 📱 Captures d'écran
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="https://via.placeholder.com/250x400?text=Page+d'accueil" alt="Page d'accueil" width="250"/>
-  <img src="https://via.placeholder.com/250x400?text=Liste+des+livres" alt="Liste des livres" width="250"/>
-  <img src="https://via.placeholder.com/250x400?text=Détail+d'un+livre" alt="Détail d'un livre" width="250"/>
+  <img src="./images/fawsayni-home.png" alt="Page d'accueil" width="350"/>
+  <img src="./images/bibliotheque.png" alt="Liste des livres" width="350"/>
+  <img src="./images/livre-detail.png" alt="Détail d'un livre" width="350"/>
 </div>
 
 ## 👨‍💻 Auteur
