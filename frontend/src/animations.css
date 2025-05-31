@@ -1,0 +1,166 @@
+/* Animations pour les transitions de page */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Animations pour les cartes */
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations pour les boutons */
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Animations pour les images */
+.book-cover {
+  transition: all 0.3s ease-in-out;
+}
+
+.book-cover:hover {
+  transform: scale(1.05);
+}
+
+/* Styles pour le mode sombre */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #f8f9fa;
+  --bs-card-bg: #1e1e1e;
+  --bs-card-border-color: #2d2d2d;
+  --bs-navbar-color: #f8f9fa;
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
+  --bs-dropdown-bg: #1e1e1e;
+  --bs-dropdown-color: #f8f9fa;
+  --bs-dropdown-link-color: #f8f9fa;
+  --bs-dropdown-link-hover-bg: #2d2d2d;
+  --bs-dropdown-link-hover-color: #ffffff;
+  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-active-color: #ffffff;
+  --bs-border-color: #2d2d2d;
+  --bs-input-bg: #2d2d2d;
+  --bs-input-color: #f8f9fa;
+  --bs-input-border-color: #444;
+  --bs-input-focus-border-color: #0d6efd;
+  --bs-input-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+[data-bs-theme="dark"] .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+[data-bs-theme="dark"] .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles pour améliorer la responsivité */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+  
+  .card-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .book-cover {
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .book-cover {
+    height: 150px;
+  }
+  
+  .btn {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Styles pour la pagination */
+.pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.pagination .page-item .page-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+[data-bs-theme="dark"] .pagination .page-link {
+  background-color: #2d2d2d;
+  border-color: #444;
+  color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .pagination .page-item.active .page-link {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .pagination .page-item .page-link:hover {
+  background-color: #444;
+  border-color: #555;
+  color: #ffffff;
+}

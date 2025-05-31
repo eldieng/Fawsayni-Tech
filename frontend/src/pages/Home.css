@@ -1,0 +1,132 @@
+/* Styles pour la page d'accueil moderne et minimaliste */
+
+/* Styles généraux */
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Section Hero */
+.hero-img {
+  transition: transform 0.5s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.02);
+}
+
+/* Feature Cards */
+.feature-card {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+[data-bs-theme="light"] .feature-card:hover {
+  border-color: #e9ecef;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-bs-theme="dark"] .feature-card:hover {
+  border-color: #2d2d2d;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
+}
+
+/* Les styles des cartes de genre ont été supprimés car ils ne sont plus nécessaires */
+
+/* Buttons */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-link {
+  color: var(--bs-primary);
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover {
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .display-6 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .display-6 {
+    font-size: 1.5rem;
+  }
+  
+  .lead {
+    font-size: 1rem;
+  }
+  
+  .feature-card, .genre-card {
+    padding: 1rem !important;
+  }
+}
+
+/* Dark mode specific styles */
+[data-bs-theme="dark"] .text-muted {
+  color: #adb5bd !important;
+}
+
+[data-bs-theme="dark"] .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+[data-bs-theme="dark"] .bg-light {
+  background-color: #121212 !important;
+}
+
+[data-bs-theme="dark"] .bg-black {
+  background-color: #000000 !important;
+}
+
+/* Animation pour les cartes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.5s ease forwards;
+}
