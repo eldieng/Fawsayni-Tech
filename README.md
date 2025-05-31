@@ -1,7 +1,7 @@
 # Fawsayni Tech - Application Web de Gestion de Bibliothèque
 
-![Fawsayni Tech Logo](https://img.shields.io/badge/Fawsayni-Tech-blue)
-![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Fawsayni Tech Logo](https://github.com/eldieng/Fawsayni-Tech/blob/master/biblioth%C3%A8que.png)
+![Version](https://github.com/eldieng/Fawsayni-Tech/blob/master/biblioth%C3%A8que.png)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## 📚 Présentation
