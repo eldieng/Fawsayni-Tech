@@ -1,14 +1,14 @@
 # Fawsayni Tech - Application Web de Gestion de Bibliothèque
 
-![Fawsayni Tech Logo](https://github.com/eldieng/Fawsayni-Tech/blob/master/biblioth%C3%A8que.png)
+![Fawsayni Tech Logo](https://github.com/eldieng/Fawsayni-Tech/blob/master/Acceuil.png)
 ![Version](https://github.com/eldieng/Fawsayni-Tech/blob/master/biblioth%C3%A8que.png)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://github.com/eldieng/Fawsayni-Tech/blob/master/detail.png)
 
 ## 📚 Présentation
 
 Fawsayni Tech est une application web moderne et complète permettant de gérer une bibliothèque communautaire. Cette plateforme permet aux utilisateurs de découvrir, partager et gérer une collection de livres avec une interface utilisateur intuitive et élégante.
 
-![Capture d'écran de l'application](./images/fawsayni-home.png)
+![Capture d'écran de l'application](https://github.com/eldieng/Fawsayni-Tech/blob/master/Acceuil.png)
 
 ## ✨ Fonctionnalités
 
