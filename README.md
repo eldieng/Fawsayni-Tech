@@ -153,14 +153,6 @@ L'application sera accessible à l'adresse [http://localhost:3000](http://localh
 - `DELETE /api/books/:id` - Supprimer un livre (authentification requise)
 - `GET /api/books/search` - Rechercher des livres par titre, auteur, etc.
 
-## 📱 Captures d'écran
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="./images/fawsayni-home.png" alt="Page d'accueil" width="350"/>
-  <img src="./images/bibliotheque.png" alt="Liste des livres" width="350"/>
-  <img src="./images/livre-detail.png" alt="Détail d'un livre" width="350"/>
-</div>
-
 ## 👨‍💻 Auteur
 
 **El Hadji Dieng**
